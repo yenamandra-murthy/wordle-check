@@ -127,7 +127,7 @@ document.getElementsByClassName( "errorMessage" )[0].innerHTML = "Please Fill ou
 
 return false;
 
-} else if (checkWord(validWords, nameVal)) {
+} else if (checkWord(validWords, nameVal.toLowerCase())) {
 
 document.getElementsByClassName( "errorMessage" )[0].style.visibility = "visible";
 
